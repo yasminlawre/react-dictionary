@@ -10,7 +10,24 @@ export default function App() {
           <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Yasmin</small>
+          <small>
+            This project was coded by Yasmin and is{" "}
+            <a
+              href="https://github.com/yasminlawre/react-dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on Github
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://luminous-croquembouche-0c4982.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
